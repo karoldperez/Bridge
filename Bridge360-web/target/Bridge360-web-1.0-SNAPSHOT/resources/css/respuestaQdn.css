@@ -1,0 +1,155 @@
+.tabView{
+    background-color: #ddd;
+}
+
+.ui-tabs.ui-tabs-top > .ui-tabs-nav li {
+    width:24%;
+    background-color: #B40B24;
+    font-family: Roboto-bold;
+    font-size: 16px;
+    padding: 0px; 
+    border-width: 0px 0px 1px 0px; 
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color : #000;
+    font-weight: bold;
+    z-index: revert;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, 
+a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+    color: #f5f5f5;
+    text-decoration: none;
+    z-index: revert;
+}
+
+#inputTableTabs {
+    height: auto;
+    width: 100%;
+    z-index: revert;
+}
+
+#TabGeneral  {
+    height: auto;
+    width: 98%;
+    background: none;
+    border: none;
+    z-index: revert;
+}
+
+#TabGeneral.ui-tabs ul {
+    background: none;
+    z-index: revert;
+}
+
+.ui-datagrid-content {
+    background: none;
+}
+
+ui-corner-all{
+    background: #FFFFFF;
+}
+
+.rowStyleInspira{
+    background-color: #B40B24!important;
+    background-image: none !important;
+    color: #000000 !important;
+    border-color: #0a0a0a;
+}
+
+.DataTableInspira{
+    border: 1px solid #000000;
+    background:#ffffff;
+    font-weight: normal;
+    color: #000000;
+}
+
+
+.ui-datatable thead th {
+    border: 1px solid #101010 !important;
+    background-color: #cccccc !important;
+    color: #000000 !important;
+    font-weight:bolder !important;
+}
+
+.ui-datatable {
+    margin-bottom:20px;
+}
+
+.ui-datatable-frozenlayout-left {
+    width:20%;
+}
+
+.ui-datatable-frozenlayout-right {
+    width:80%;
+}
+
+/*Selección de la pestaña principal*/
+body .ui-tabs.ui-tabs-top .ui-tabs-nav li.ui-state-active,
+        body .ui-tabs.ui-tabs-bottom .ui-tabs-nav li.ui-state-active,
+        body .ui-tabs.ui-tabs-left .ui-tabs-nav li.ui-state-active, 
+        body .ui-tabs.ui-tabs-right .ui-tabs-nav li.ui-state-active{
+            background: #808080;
+            color :#FFFFFF;
+     }
+     
+/* Acordion Panel CSS--------------------------------------------------------*/
+
+/*Forma de la selección*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header 
+.ui-state-active, a.ui-button:active, .ui-button:active, 
+.ui-button.ui-state-active:hover {
+    border: 1px solid #ff8a8d;
+    background: #808080;
+    font-weight: normal;
+    color: #ffffff;
+    border-radius: 1%;
+}
+
+/*Cambio de color en la selección*/
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, 
+.ui-widget-content .ui-state-focus, .ui-button:hover, .ui-button:focus {
+    border: 1px solid #808080;
+    background: #808080;
+    font-weight: normal;
+    color: white;
+    border-radius: 1%;
+} 
+
+/*Selección del panel */
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header 
+.ui-state-active, a.ui-button:active, .ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #808080;
+    background: #808080;
+    font-weight: normal;
+    color: white;
+    border-radius: 1%;
+    /*font-size:;*/
+}
+
+/*Contenido del Panel*/
+/* .ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    margin-top: -2px;
+    position: relative;
+    top: 1px;
+    margin-bottom: 2px;
+    overflow: auto;
+    background: #f5f5f5;
+    zoom: 1.5;
+}*/
+/* Acordion Panel CSS--------------------------------------------------------*/
+
+.DataLista{
+font-size:11px;
+font-family:Calibri;
+}
+
+.TituloLista{
+font-size:12px;
+font-family:Calibri;
+}

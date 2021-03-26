@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Bridge360-web:war">
+    <output-path>$PROJECT_DIR$/Bridge360-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Bridge360-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Bridge360-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Bridge360-web:war exploded" />
+    </root>
+  </artifact>
+</component>

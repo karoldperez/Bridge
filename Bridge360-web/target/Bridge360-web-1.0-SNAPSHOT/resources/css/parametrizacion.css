@@ -1,0 +1,2161 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+Unificacion de estilos para el aplicativo
+*/
+/* 
+    Created on : 28/06/2017, 01:39:42 PM
+    Author     : imartipe@everis
+*/
+/* CSS Document */
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+/* ---------- FONTAWESOME ---------- */
+@font-face {
+    font-family: Roboto-bold;
+    src : url(../resources/fonts/Roboto-Bold_0.ttf);
+    /*    font-family: Roboto-BlackItalic;
+        src : url(../resources/fonts/Roboto-BlackItalic.ttf);
+        font-family: Roboto-Black;
+        src : url(../resources/fonts/Roboto-Black_1.ttf);
+        font-family: Roboto-BoldCondensed;
+        src : url(../resources/fonts/Roboto-BoldCondensed.ttf);
+        font-family: Roboto-BoldCondensedItalic;
+        src : url(../resources/fonts/Roboto-BoldCondensedItalic.ttf);
+        font-family: Roboto-BoldItalic;
+        src : url(../resources/fonts/Roboto-BoldItalic.ttf);
+        font-family: Roboto-Condensed;
+        src : url(../resources/fonts/Roboto-Condensed.ttf);
+        font-family: Roboto-Italic;
+        src : url(../resources/fonts/Roboto-Italic.ttf);
+        font-family: Roboto-LightItalic;
+        src : url(../resources/fonts/Roboto-LightItalic.ttf);
+        font-family: Roboto-Light;
+        src : url(../resources/fonts/Roboto-Light_0.ttf);
+        font-family: Roboto-MediumItalic;
+        src : url(../resources/fonts/Roboto-MediumItalic.ttf);
+        font-family: Roboto-Medium;
+        src : url(../resources/fonts/Roboto-Medium_0.ttf);
+        font-family: Roboto-Regular;
+        src : url(../resources/fonts/Roboto-Regular_0.ttf);
+        font-family: Roboto-Thin;
+        src : url(../resources/fonts/Roboto-Thin.ttf);
+        font-family: Roboto-ThinItalic;
+        src : url(../resources/fonts/Roboto-ThinItalic.ttf);
+        font-family: RobotoCondensed-Bold;
+        src : url(../resources/fonts/RobotoCondensed-Bold.ttf);
+        font-family: RobotoCondensed-BoldItalic;
+        src : url(../resources/fonts/RobotoCondensed-BoldItalic.ttf);
+        font-family: RobotoCondensed-Italic;
+        src : url(../resources/fonts/RobotoCondensed-Italic.ttf);
+        font-family: RobotoCondensed-LightItalic;
+        src : url(../resources/fonts/RobotoCondensed-LightItalic.ttf);*/
+
+}
+
+.title {
+    font-size: 30px;
+    font-family: Roboto-bold;
+}
+/*inicio tabla 3*/
+
+#inputTable3 {
+    border-spacing: 15px;
+    border-collapse: separate;
+}
+/*fin tabla 3*/
+
+#inputTableReport td{
+    width: 300px;
+}
+
+#inputTableReport td{
+    width: 300px;
+}
+
+#inputTable {
+    width: 50%;
+    margin:0 auto;
+} 
+
+#inputTable input{
+    width: 269px;
+} 
+
+#inputTable select{
+    width: 269px;
+}
+/*inputtable 2 ini */
+#inputTable2 {
+    width: 50%;
+    margin:0 auto;
+}
+
+#inputTable2 input{
+    width: 269px;
+}
+
+#inputTable2 select{
+    width: 269px;
+}
+
+#Plataforma {
+    width: 269px;
+    height: 33px;
+}
+/*inputtable 2 fin */
+
+#inputTableReport input{
+    width: 269px;
+} 
+
+#inputTableReport select{
+    width: 269px;
+}
+
+#inputTableReport input{
+    width: 269px;
+} 
+
+#inputTableReport select{
+    width: 269px;
+} 
+
+#inputTable label{
+    background-color: #B40B24;
+    font-family: Roboto-bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    width: 269px;
+    height: 33px;
+    padding-left: 50px;
+}
+
+/*input table 2 ini*/
+#inputTable2 label{
+    background-color: #B40B24;
+    font-family: Roboto-bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    width: 269px;
+    height: 33px;
+    padding-left: 50px;
+}
+/*input talbe 2 fin*/
+#inputTableReport label{
+    background-color: #B40B24;
+    font-family: Roboto-bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    width: 269px;
+    height: 33px;
+    padding-left: 50px;
+}
+
+#inputTableReport label{
+    background-color: #B40B24;
+    font-family: Roboto-bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    width: 269px;
+    height: 33px;
+    padding-left: 50px;
+} 
+
+#errorTable td:nth-last-child(1){
+    padding-top: 180px;
+    width: 580px;
+}
+
+#table {
+    font-family: Roboto-bold;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table tbody {
+    background-color: white;
+}
+
+#table thead {
+    background-position: center right;
+}
+
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table th:nth-child(even){
+    background-color: #B40B24;
+}
+
+#table th:nth-last-child(1) {
+    border-bottom: 1px red;
+}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #DA262C;
+    color: white;
+    font-family: Roboto-bold;
+    background-image: URL(../resources/images/icon-filtro-tabla.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#table th:nth-child(1) {
+    background-image: none;
+}    
+
+#table td:nth-last-child(2) {
+    background-color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 2%;
+}   
+
+#table td:nth-last-child(1) {
+    background-color: black;
+    border-left: none;
+    border-top: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 2%;
+}
+
+#table th:nth-last-child(2) {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+
+}
+
+#table th:nth-last-child(1) {
+    background-image: none;
+    background-color: transparent;
+    border-left: none ;
+    border-bottom: none ;
+    border-top: none ;
+
+}
+
+input[type=text], select {
+    display:block;
+    width:auto;
+    height:40px;
+    padding:6px 12px;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#555;
+    background-color:#fff;
+    background-image:none;
+    border:1px solid #ccc;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.search{
+    width: 353px;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#labelSearch {
+    background-color: #DA262C;
+    font-family: Roboto-bold;
+    color: #FFFFFF;
+    height: 40px;
+    font-size: 11pt;
+    padding-right: 0.5em;
+}
+
+.div-label {
+    background-color: #DA262C;
+    height: 40px;
+    font-family: Roboto-bold;
+    color: #FFFFFF;
+    font-size: 11pt;
+    padding-left: 0.3em;
+}
+
+.div-label select{
+    border: 1px solid #ccc;
+    background-image: URL(../resources/images/felcha-roja-resultados.png);
+    background-repeat: no-repeat;
+    background-position: 65px;
+    -webkit-appearance: none;
+    width: 90px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-left: 25px;
+}
+.labelred
+{
+    background-color: #f31414;
+    border-color: #f31414;
+    color: white;
+    font-family: Roboto-bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+labelblack
+{
+    background-color: #ffffff;
+    border-color: #f31414;
+    color: white;
+    font-family: Roboto-bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#inputs{
+    padding-top: 10px;
+    
+}
+
+table.dataTable thead th,table.dataTable tfoot th {
+    font-weight: bold;
+    background-color: red;
+    color:white;
+    text-align: center;
+}
+
+.imagenLogoClaro
+{
+    float: right;
+    position: absolute;
+    right: 52px;
+    top: 5px;
+    z-index: 2;
+}
+.icon-menu
+{
+    padding-top: 15px;
+    width: 80px;
+
+}
+.icon-claro
+{
+    padding-top: 15px;
+    width: 80px;
+
+}
+.table-td {
+    width: 100%;
+}
+.icon-logout
+{
+    padding-top: 15px;
+    width: 80px;
+    float: right;
+}
+.label-verificacion
+{
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+/*.contenido
+{
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}*/
+
+.contenido-Login
+{
+    position: fixed;
+    width: 100%;
+    padding-left:70px;
+    padding-right:70px;
+    height: 100%;
+}
+
+
+
+.contenidoCenter
+{
+    display: block;
+    margin: 0 auto;
+}
+
+#login-Footer
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: 615px;
+}
+
+.line-footer
+{
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    /*bottom: auto;*/
+}
+
+
+
+#mensaje{
+
+    margin:0 auto;
+
+    text-align:center;
+    font-size: 20px;
+    color:#fb0000;
+    margin-top: -18px;
+    font-weight:bold;
+    width: 70%;
+    margin-left:320px;
+}
+
+.imageFo {
+    padding-right: 20px;
+    padding-top: 0.5px; 
+}
+
+.table {
+    width: 100%;
+}
+
+.table-content{
+    font-size: 10px;
+}
+
+#table_previous {
+    background-color: black;
+    color:white !important;
+}
+#table_next {
+    background-color: black;
+    color:white !important;
+}
+
+/**
+    Cesar Gordillo 19-01-2018
+*/
+.fadeDiv {
+    position:fixed; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background-color: rgba(0,0,0,0.4); 
+    text-align:center;
+    display:none;
+}
+
+#navMenu
+{
+    background-color: #303030;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    height: 90px;
+    display: none;
+}
+
+.closebtn
+{
+    padding-left: 20px;
+    margin-top: 10px;
+    display:none;
+}
+
+#btnClose
+{
+    color: transparent;
+    margin-top: 10px;
+    font-size: 25px;
+    float: left;
+    padding-left: 150px;
+    padding-top: 30px;
+    /*    background-image: url("../resources/images/icon-cerrar-menu.png");
+        background-attachment: fixed;*/
+}
+
+
+.brand
+{
+    height:98px;
+    background-color: #303030;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modalEdit {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+/* The Close Button */
+.closed {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closed:hover,
+.closed:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}  
+.closeEdit {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+
+.closeEdit:hover,
+.closeEdit:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}  
+
+#mySidenav
+{
+
+    display:none;
+}
+
+#modalFormGeneric,#modalRemoveGeneric
+{
+    border:  4px solid #a71010;
+    margin: -5px;
+    padding-top: 0px;
+}
+
+#pnlGrd1
+{
+    margin-top: -9px;
+}
+
+#btnCancelar,#btnCancelarP
+{
+    background-color: #1d1c1c;
+    color: white;
+    padding: 10px 60px;
+    font-size: 14px;
+}
+.encabezado
+{
+    font-weight: bold;
+}
+
+#input-addon-edit
+{
+    background-color: white;
+}
+
+.input-group-addon2
+{
+    border-style: inset;
+    border-color: grey;
+    border-width: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#flecha_previa
+{
+    background-image: url("../resources/images/Flecha-anterior-calendario_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#flecha_siguiente
+{
+    background-image: url("../resources/images/Flecha-siguiente-calendario_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#FechaInicioL,#FechaVenceL,#ingresoL
+{
+    border:none;
+    background-image: url("../resources/images/Icon-fecha.png");
+    background-repeat: no-repeat;
+    background-position: 100px center;   
+}
+
+/*dserrato*/
+#fecFin,#fecInicio
+{
+    border:none;
+    background-image: url("../resources/images/Icon-fecha.png");
+    background-repeat: no-repeat;
+    background-position: 235px center;
+}
+
+
+#FechaVence
+{            
+    background-image: url(../resources/images/Icon-fecha.png);
+    background-repeat: no-repeat;
+    background-position: 235px center;          
+}
+/*dserrato*/
+#FechaInicio
+{            
+    background-image: url(../resources/images/Icon-fecha.png);
+    background-repeat: no-repeat;
+    background-position: 235px center;          
+}
+
+
+
+.glyphicon-gift
+{
+    content: "\e109";
+    /**Cesar Gordillo 22-01-2018 */
+    color:white;
+    padding-top: 15px;
+    font-size: 20px;
+    /**Fin Cesar Gordillo 22-01-2018 */      
+}
+
+
+
+/**
+    Fin Cesar Gordillo 19-01-2018
+*/
+
+.textMenuPRZ
+{
+    width:100%;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.tdSpacer
+{
+    width: 280px;
+}
+
+.trSpacer
+{
+    height: 30px;
+}
+
+/*
+    Esta linea si quiere que balla centrada como un ceparador horizontal se
+    recomienda ponerla en un <div class='boxHr'> y que este balla dentro
+    de un <center>
+*/
+.boxHr
+{
+    background-color: #eee;
+    border: 1px;
+    border-style: solid;
+    border-color: #800;
+    width: 98%;
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+/*Estilo para las ventanas modales*/
+.ui-widget-header,.ui-state-default, ui-button
+{
+    background: #D02E10;
+    color: #FFFFFF;
+    border: 2px solid #b92c28;
+    color: #eee;
+    font-weight: bold;
+}
+
+.modalWindow    
+{
+    display: none;
+}
+
+/*Estilo para las tablas*/
+.tableColumHeader
+{
+    color: #d02e10;
+    display: table;
+    margin: 0 auto;
+}
+
+/*Forma del mensaje de error de JQUERY Validation*/
+.error
+{
+    color: #F9F8F6;
+}
+
+/*imartipe@everis.com Estilo para las cajas de seleccion ListBox*/
+.listBox
+{
+    width: 260px;
+    height: 100px;
+}
+
+/*imartipe@everis.com*/
+.buttonGenericLink
+{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #d02e10;
+    color: #eee;
+    font-weight: bold;
+    width: 200px;
+    height: 22px;
+    display: inline-block;
+    text-align: center;
+}
+
+.buttonGenericLink:link,
+.buttonGenericLink:visited,
+.buttonGenericLink:hover,
+.buttonGenericLink:active 
+{
+    color: #eee;
+}
+
+/*imartipe*/
+.buttonHidde
+{
+    display: none;
+}
+
+.buttonSubmit
+{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #d02e10;
+    color: #eee;
+    font-weight: bold;
+    width: 200px;
+    height: 22px;
+}
+
+/*
+        imartipe@everis.com
+        Un menu diferente para la aplicacion
+        22-07-2017
+*/
+
+.menuParametrizacion > li
+{
+    float:left;
+    list-style: none;
+}
+
+.menuParametrizacion li a
+{
+    background:#D02E10;
+    color:#FFF;
+    display:block;
+    border:1px solid;
+    padding:10px 12px;
+}
+
+.menuParametrizacion li a:hover
+{
+    background: red;
+}
+
+.menuParametrizacion li ul
+{
+    display:none;
+    position:absolute;
+    min-width:140px;
+    list-style: none;
+}
+
+.menuParametrizacion li:hover > ul
+{
+    display:block;
+}
+
+.menuParametrizacion li ul li
+{
+    position:relative;
+}
+
+.menuParametrizacion li ul li ul
+{
+    right:-140px;
+    top:0;
+}
+
+.menuParametrizacion li .menuIParametrizacion
+{
+    font-size: 9px;
+    padding-left: 6px;
+    display: none;
+}
+
+.menuParametrizacion li a:not(:last-child) .menuIParametrizacion
+{
+    display: inline;
+}
+
+#dataTableTipoTrabajoSubtipo,#actividadIngresarTabla tbody tr td
+{
+    white-space: nowrap;
+}
+
+/*.scrollVisible
+{
+    width: 98%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+    float: left;
+    position: absolute;
+    overflow-x: scroll;
+    white-space: nowrap;
+}*/
+
+.booton-position
+{
+    padding-bottom: 10px;
+}
+
+
+/* ------ Cabezote Principal -------*/
+.logo {margin: 2px; width:106px; height:106px;	background-image:url(images/logo_claro.png); background-repeat:no-repeat;}
+.line {background-color:black ; width:100%; height: 2px; font-size:0px; float:left;margin-top: 10px;}
+.mainTitle {color:#000000; display:block; font-family: Arial, Helvetica, sans-serif; font-size:24px;margin:0;padding:0;text-align:right;}
+.rich-toolbar { font-family:Arial, Helvetica, sans-serif; text-align:right; width:400px; float:right; }
+.rich-toolbar-item {color: #006699;	font-family: Arial, Helvetica, sans-serif; text-align:right; font-size: 11px;font-weight: bold;padding: 2px 10px;white-space: nowrap;}
+
+
+/*
+    Menu Horizontal Comex
+*/
+
+ul#navmenu-h { margin: 0; padding: 0; list-style: none; position: relative; }
+
+/*
+ul#navmenu-h ul {
+ width: 160px; /* Sub Menu Width */
+/* margin: 0;
+ list-style: none;
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+}
+
+
+/* Root Menu */
+ul#navmenu-h a {
+    border-top: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    padding: 6px;
+    float: left;
+    display: block;
+    background: #d52b1e/*#DDD*/;
+    color: white;
+    font: bold 12px Arial, sans-serif;
+    text-decoration: none;
+    height: 1%;
+}
+
+
+
+/* HASTA ACA TODO BIEN*/
+
+/* Root Menu Hover Persistence */
+
+ul#navmenu-h a:hover,ul#navmenu-h li:hover a,ul#navmenu-h li.iehover a {
+    background: #BBB;
+    color: #FFF;
+}
+
+.datatable {
+    background-color: white;
+    border-collapse: collapse;
+
+}
+
+
+/* Style rules to make Java Server faces Standarad data tables look better */
+body { height: 100%; font-family:Arial, Helvetica, sans-serif;  font-size:10px; text-align:left;}
+html, #mainContent, #mainPage { height: 100%; width:auto;}
+
+/* Estilos para titulos  */
+h1, h2, h3, h4, h5, h6 { color: #000; }
+h1 {font-size: 19px;font-family:arial;font-weight: bold;color:#000}
+h2 { font-size: 16px; font-family:arial; font-weight: bold; color:#000 }
+h3 { font-size: 14px; font-family:arial; font-weight: bold; color:#000 }
+h4 { font-size: 14px; font-family:arial; font-weight: bold; color:#000 }
+h5 { font-size: 14px; font-family:arial; font-weight: bold; color:#000 }
+h6 { font-size: 14px; font-family:arial; font-weight: bold; color:#000 }
+
+/* Estilos para  parrafos */
+p { font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #000000 }
+label { font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #333333; font-weight: bold; }
+
+
+button[type="button"], button[type="reset"], button[type="submit"], input[type="reset"], input[type="submit"], input[type="button"] {
+    background-color: #1d1c1c;
+    border-color: #e8e1e0;
+    color: white;
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 13px;
+    border: none;
+    padding: 10px 60px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="button"], button[type="reset"], button[type="submit"], input[type="reset"], input[type="submit"], input[type="button"] {
+    background-position: left top;
+    background-repeat: repeat-x;
+    border-width: 1px;
+}
+
+/* SUBMENOS AUTOR :MLIEVANO  */
+ul.navmenu-h
+{
+    list-style:none;
+}
+ul.navmenu-h ul /* Para todos los ul debajo del ul.menu */
+{
+    display:none;
+    list-style:none;
+}
+
+/* Esto afecta a todos los ul inmediatamente debajo (el > ) de un li que a su vez estÃ© dentro de un ul.menu */
+ul.navmenu-h li:hover > ul
+{
+    display:block;
+}
+/*Login*/
+@media (min-width: 700px), screen\0{
+    .containerlogin {
+        background-color: white;
+        position: relative;
+        top: 5%;
+        border-radius: 5px 5px 5px 5px;   
+        border:solid 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-color: #D02E10;
+        width:1100px;
+        height:500px;
+        -webkit-box-shadow: 2px 7px 26px -4px rgba(0,0,0,1);
+        -moz-box-shadow: 2px 7px 26px -4px rgba(0,0,0,1);
+        box-shadow: 2px 7px 26px -4px rgba(0,0,0,1);
+    }
+
+
+    .body-login {
+        overflow-y: hidden;
+    }
+
+    .containerCambioClave {
+
+        left: 60%;
+        position: absolute;
+        top: 15%;
+        border-radius: 5px 5px 5px 5px;   
+        border:solid 4px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        border-color: #D02E10;
+    }
+    .textoIzq{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        width:400px;
+
+    }
+
+    .textoIzq p {
+
+        color : #D02E10;
+        font-family: arial;
+        font-size: 40px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 500;
+        line-height: 26.4px;
+
+    }
+    .textoIzq span {
+        color : #333;
+        font-family: Arial;
+        /*font-size: px*/
+    }
+    #logo{
+        width:100%;
+        text-align:left;
+        padding: 30px;
+    }
+}
+/*quitar floats*/
+.clearfixpass {
+    *zoom: 1;    
+}
+.clearfix {
+    *zoom: 1; 
+    margin-top: 20px;
+}
+.clearfix:before, .clearfix:after {
+    content: ' ';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+/*botÃ³n negro*/
+
+.btnb {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.btn_black {background-color:black ; color:white ;} /* black */ 
+.btn_black:hover {background: #ddd;}
+
+/*TÃ­tulo login*/
+.titulolgn{
+    font-family: Arial;
+    font-size: 50px;
+    color:#333;
+}
+/*Texto login*/
+.txtlgn
+{
+    font-family: Roboto-bold;
+    font-size: 24px;
+    color:#333;
+    text-align:center;
+    margin-top: 30px;
+}
+/* Recordar pass*/
+.forgetpass 
+{
+    font-family: Arial;
+    font-size: 15px;
+    color:#333;
+}
+
+/* Menu vertical */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /*padding-top: 60px;*/
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.nav-side-menu {
+    overflow: auto;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 200;
+    background-color: #303030;
+    position: fixed;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    color: #e1ffff;
+}
+.nav-side-menu .brand {
+    margin-bottom: 30px;    
+    background-color: #303030;    
+    background-color: #303030;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    /**Cesar Gordillo 23-01-2018*/    
+    font-size: 20px;
+    color: white;
+    /**Fin Cesar Gordillo 23-01-2018*/    
+}
+.nav-side-menu .toggle-btn {
+    display: none;
+}
+.nav-side-menu ul, .nav-side-menu li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;
+    /* .collapsed{
+         .arrow:before{
+             font-family: FontAwesome;
+             content: "\f053";
+             display: inline-block;
+             padding-left:10px;
+             padding-right: 10px;
+             vertical-align: middle;
+             float:right;
+        }
+    }
+    */
+}
+.nav-side-menu ul :not(collapsed) .arrow:before, .nav-side-menu li :not(collapsed) .arrow:before {
+    font-family: FontAwesome;
+    content: "\f078";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right;
+}
+.nav-side-menu ul .active, .nav-side-menu li .active {
+    border-left: 3px solid #d19b3d;
+    background-color: #4f5b69;
+}
+.nav-side-menu ul .sub-menu li.active, .nav-side-menu li .sub-menu li.active {
+    color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li.active a, .nav-side-menu li .sub-menu li.active a {
+    color: #d19b3d;
+}
+.nav-side-menu ul .sub-menu li, .nav-side-menu li .sub-menu li {
+    background-color: #181c20;
+    border: none;
+    line-height: 28px;
+    border-bottom: 1px solid #23282e;
+    margin-left: 0px;
+}
+.nav-side-menu ul .sub-menu li:hover, .nav-side-menu li .sub-menu li:hover {
+    background-color: #020203;
+}
+.nav-side-menu ul .sub-menu li:before, .nav-side-menu li .sub-menu li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.nav-side-menu li {
+    padding-left: 0px;
+    border-left: 3px solid #2e353d;
+    border-bottom: 1px solid #23282e;
+}
+.nav-side-menu li a {
+    text-decoration: none;
+    color: #e1ffff;
+}
+.nav-side-menu li a i {
+    padding-left: 10px;
+    width: 20px;
+    padding-right: 20px;
+}
+.nav-side-menu li:hover {
+    border-left: 3px solid #d19b3d;
+    background-color: #4f5b69;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.icon-date{
+    padding-top: 20px;
+    float: right;
+    margin-right: 330px;
+    font-family: Roboto-bold;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    margin-right: 100px;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.calendar-img{
+    margin-right: 10px;
+}
+
+/*#date{
+    float: right;
+    padding-top: 30px;
+    color: #FFFFFF;
+    padding-right: 100px;
+    padding-left: 15px;
+    font-family: Roboto;
+}
+#hour{
+    float: right;
+    padding-top: 30px;
+    color: #FFFFFF;
+    padding-right: 100px;
+    padding-left: 15px;
+    font-family: Roboto;
+    margin-top: 10px;
+}*/
+
+.div1{
+    display: flow-root;
+}
+.div2{
+    margin-top: -40px;
+}
+
+.image-user{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .nav-side-menu {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-side-menu .toggle-btn {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 10 !important;
+        padding: 3px;
+        background-color: #ffffff;
+        color: #000;
+        width: 40px;
+        text-align: center;
+    }
+    .brand {
+        text-align: left !important;
+        font-size: 22px;
+        padding-left: 20px;
+        line-height: 50px !important;
+    }
+}
+@media (min-width: 767px) {
+    .nav-side-menu .menu-list .menu-content {
+        display: block;
+    }
+}
+
+.imgrecopass
+{
+    width: 500px;
+    margin-top: 20px;
+    height: 388px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.imagelogin
+{
+    width: 500px;
+    margin-top: 11px;
+    height: 470.5px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+/* The Modal (background) */
+.modalError {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+    background-image: URL(../resources/images/bandera-eliminar.png);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #DA262C;
+    width: 660px;
+    height: 305px;
+}
+.modalError-content {
+    background-image: URL(../resources/images/bandera-error.png);
+    background-repeat: no-repeat;
+    background-position-x: 245px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #DA262C;
+    width: 635px;
+    height: 270px;
+}
+.modalCreateEnd-content{
+    background-image: URL(../resources/images/bandera-nuevo-registro.png);    
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #d3031f;
+    width: 660px;
+    height: 305px;
+    font-size: 30px;
+    color: #d3031f;
+    font-family: Roboto-bold;
+    font-weight: bold;
+    padding-right: 0px;
+}
+
+.modalCreateEnd{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modalEdit-content {
+    background-image: URL(../resources/images/bandera-editar.png); 
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    border: 3px solid #DA262C;
+    /**cgordilg 27-03-18*/
+    width: 1000px;
+    height: 370px;
+    /**Fin cgordilg 27-03-18*/
+}
+.modalDeleteEnd-content{
+    background-image: URL(../resources/images/bandera-eliminar-end.png);    
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #d3031f;
+    width: 660px;
+    height: 305px;
+    font-size: 30px;
+    color: #d3031f;
+    font-family: Roboto-bold;
+    font-weight: bold;
+    padding-right: 0px;
+}
+
+.modalDeleteEnd{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalEditEnd-content{
+    background-image: URL(../resources/images/bandera-editar.png);    
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #d3031f;
+    width: 660px;
+    height: 305px;
+    font-size: 30px;
+    color: #d3031f;
+    font-family: Roboto-bold;
+    font-weight: bold;
+    padding-right: 0px;
+}
+
+.modalEditEnd{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalProgress-content{
+    background-image: URL(../resources/images/Load.gif);    
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 55px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #d3031f;
+    width: 660px;
+    height: 305px;
+    font-size: 30px;
+    color: #d3031f;
+    font-family: Roboto-bold;
+    font-weight: bold;
+    padding-right: 0px;
+}
+
+.modalProgress{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.closed {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closeErrorEnd {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closed:hover,
+.closed:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.closeErrorEnd:hover,
+.closeErrorEnd:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeCreateEnd {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+.closeCreateEnd:hover,
+.closeCreateEnd:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeDeleteEnd {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+.closeDeleteEnd:hover,
+.closeDeleteEnd:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeEditEnd {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+.closeEditEnd:hover,
+.closeEditEnd:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeProgress {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+.closeProgress:hover,
+.closeProgress:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popUpDelete {
+    font-family: Roboto-bold;
+    font-weight: bold;
+    color: #333333;
+    font-size:30px;
+}
+.float-text {
+    float: right;
+    padding-top: 54px;
+    padding-right: 45px;
+}
+.float-text-l {
+    float: right;
+    padding-right: 30px;
+}
+
+.float-text-2{
+    float: right;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.float-text-3 {
+    float: right;
+    padding-top: 30px;
+    margin-left: 300px;
+    margin-right: 80px;
+    font-size: 35px;
+}
+
+.float-text-4 {
+    float: right;
+    font-size: 35px;
+    padding-top: 95px;
+    padding-right: 20px;
+}
+.float-text-error {
+    font-family: Roboto-bold;
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+    padding-left: 20%;
+}
+
+.float-bootons{
+    float: right;
+    padding-top: 27px;
+    font-size: 20px;
+    font-family: Roboto-bold;
+}
+
+#btnEliminar {
+    margin-right: 30px;
+}
+
+#deleteEndSave{
+    margin-right: 30px;
+}
+
+#deleteCancel {
+    margin-right: 20px; 
+}
+
+#edit1 input{
+    display: block;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: auto;
+    min-width: 50px;
+    max-width: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#edit1 select{
+    display: block;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: auto;
+    min-width: 50px;
+    max-width: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#edit1 label{
+    display: block;
+    font-size: 14px;
+    width: auto;
+    margin-left: 25px;
+    margin-right: -10px;
+    margin-bottom: 1px;
+}
+
+#edit1 {
+    float: left;
+    margin-left: 25%;
+    margin-top: 80px;
+}
+
+#edit2 input{
+    display: block;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: auto;
+    min-width: 50px;
+    max-width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#edit2 select{
+    display: block;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: auto;
+    min-width: 50px;
+    max-width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#edit2 label{
+    display: block;
+    font-size: 14px;
+    width: auto;
+    min-width: 50px;
+    max-width: 150px;
+    margin-left: 25px;
+    margin-right: 25px; 
+    margin-bottom: 1px;
+}
+
+#edit2 {
+    float: right;
+    margin-top: 60px;
+}
+#edit3 input[type="text"]{
+    display: block;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: auto;
+    min-width: 50px;
+    max-width: 130px;
+}
+
+#edit3 select{
+    display: block;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: auto;
+    min-width: 50px;
+    max-width: 150px;
+    margin-right: 25px;
+}
+#edit3 label{
+    display: block;
+    font-size: 14px;
+    width: auto;
+    min-width: 50px;
+    max-width: 150px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 1px;
+
+}
+
+#edit3 {
+    float: left;
+    padding-top: 50px;
+}
+
+#edit3 input[type="submit"] {
+    background-color: #1d1c1c;
+    color: white;
+    padding: 10px 60px;
+    font-size: 14px;
+    width: auto;
+    min-width: 50px;
+    max-width: 200px;
+    margin-left: 20px;
+}
+#edit3 img{
+}
+
+#deleteBtn , #editBtn ,#myBtnDE,#myBtnEE ,#myBtnOP ,#errorTemp ,#inactividadPopUp{
+    display: none;
+}
+
+.iconmail
+{
+    width: 20px;
+}
+.back
+{
+    font-family: Roboto-bold;
+    color: #333333;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lgnpass
+{
+    font-family: Roboto-bold;
+    color: #DA262C;
+    font-size: 50px;
+    font-weight: bold;
+    text-align : justify;
+}
+
+.titlelogin{
+    font-family: Roboto-bold;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.titlepass{
+    font-family: Roboto-bold;
+    color: #333333;
+    font-size: 22px;
+    font-weight: bold;
+    text-align : center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-size:  100% 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.imgFondo
+{
+    position: absolute;
+    z-index: -1;
+    width: 800px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+#imgSup
+{
+    width: 1000px;
+    height:  150px;
+    margin-top: 5px;
+}
+
+#divInferior
+{
+    margin-top: 37px;
+    margin-right: 300px;
+}
+
+#imgTipoLista
+{
+    height: 150px;
+    width: 200px;
+}
+
+#imgDescargaPlantilla
+{
+    width: 200px;
+    margin-right: 40px;
+    margin-left: 30px;
+    height: 150px;
+}
+
+#cmImgDescDown
+{
+    width: 150px;
+    height: 100px;
+}
+
+#panelSelect
+{
+    width: 440px;
+}
+
+.listatipos
+{
+    /*width: 320px;*/
+    height: 60px;
+}
+
+#imgDescargaCsv
+{    
+    width: 200px;
+    height: 150px;
+    margin-right: 35px;
+}
+
+#cmTxtxPlan,#cmTxtxPlanCargue
+{
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    text-align: center; 
+    margin-right: 150px;    
+    max-width: 150px;
+}
+
+#cmTxtxPlanCargue
+{   
+    margin-right: 70px;
+}
+
+label.upload {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 2px;
+    cursor: pointer;
+    /*background: url(/resources/images/3-cargar-plantilla.png);*/
+}
+
+.img-selectFile
+{
+    position: inherit;
+    margin-right: 25px;
+    width: 150px;
+    height: 100px;
+}
+
+#oculto
+{
+    visibility: hidden;
+    margin-right: 85px;
+}
+
+input.upload {
+    display: none;
+}
+
+#cargarImg label
+{
+    background-color: blue;
+}
+
+label.upload {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 2px;
+    cursor: pointer;
+}
+
+input.upload {
+    display: none;
+}
+
+input[type=file]#loadFile
+{
+    display: none;
+}
+
+#btnCargue, #btnSalirCargue input
+{
+    width: 10px;
+}
+
+/*#lsTipos
+{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+#imgDescargaPlantilla
+{
+    position: absolute;
+}*/
+
+a#j_idt16 {
+    padding-top: 35px;
+}
+
+#imgNoCabecera
+{    
+    width: 700px;
+    height: 150px;
+}
+
+#panelCabecera
+{
+    margin: 0 auto;
+    margin-left: 150px;
+}
+
+.mensajes-error {
+    background: #FFFFFF;
+    border-radius: 1em;
+    border: 0;
+    min-height: 3rem;
+    padding: 1em;
+    position: relative;
+    display: none;
+    font-size: initial;
+    position: absolute;
+    font-family: Roboto-bold;
+    font-weight: bold;
+    text-align : center;
+    border: 2px solid #e22006;
+    zoom: 0.88;
+}
+
+.output-mensaje{
+    padding-bottom: 0px;
+}
+.sumario{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+/*dserrato
+INI
+*/
+.modalInactividad-content {
+    background-color: #FFFFFF;
+    padding: 20px;
+    background-position-x: 50px;
+    background-color: #FFFFFF;
+    margin: 15% auto;
+    border: 3px solid #DA262C;
+    width: 380px;
+    height: 200px;
+}
+
+.modalInactividad {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.float-text-inac{
+    padding-top: 34px;
+    padding-right: 17px;
+    float: right;
+    font-size: 17px;
+}
+
+.booton-position-inac1{
+    padding-bottom: 10px;
+}
+
+.float-bootons-inac1 {
+    float: right;
+    padding-top: 27px;
+    font-size: 20px;
+    font-family: Roboto-bold;
+}
+
+.float-bootons-inac2{
+    float: right;
+    padding-top: 27px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Roboto-bold;
+}
+.booton-position-inac2{
+    padding-bottom: 10px;
+}
+/*dserrato
+FIN
+*/

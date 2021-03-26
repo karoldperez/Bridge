@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="Bridge360-ear:ear">
+    <output-path>$PROJECT_DIR$/Bridge360-ear/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Bridge360-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Bridge360-ear-1.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="Bridge360-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

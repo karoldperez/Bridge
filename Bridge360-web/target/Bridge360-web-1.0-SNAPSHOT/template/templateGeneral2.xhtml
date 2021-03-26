@@ -1,0 +1,107 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+
+      xmlns:f="http://xmlns.jcp.org/jsf/core" >
+    <h:head>
+        <title>Inspira - Claro</title>
+        <h:outputStylesheet name="bootstrap.min.css" library="css"/>
+        <h:outputStylesheet name="parametrizacion.css" library="css"/>  
+        <h:outputScript name="jquery-1.12.4.js" library="js"/>  
+        <h:outputStylesheet name="jquery-ui.css" library="css"/>
+        <h:outputScript name="parametrizacion.js" library="js"/>
+        <h:outputScript name="jquery-ui.js" library="js"/>
+        <h:outputStylesheet name="respuestaQdn.css" library="css"/>  
+        <meta name="viewport" content="width=device-width, initial-scale=0.9"/>
+    </h:head>
+
+    <h:body >
+        <h:form id="form" prependId="false" class="contenido" enctype="multipart/form-data" >
+            <h:commandLink style="display: none" id="cerrarToken">
+                <f:ajax event="click" />
+            </h:commandLink>
+            <h:panelGroup>
+                <h:panelGroup class="title">
+                    <ui:insert id="title" name="title"></ui:insert>
+                </h:panelGroup>
+                <h:panelGroup id="panelContent" >
+                    <ui:insert 
+                        id="labels" name="labels"></ui:insert>
+                </h:panelGroup>
+                <h:panelGroup class="form-bootons">
+                    <ui:insert  id="formBootons" name="formBootons"></ui:insert>
+                </h:panelGroup>
+            </h:panelGroup>
+            <h:panelGroup>
+                <ui:insert  id="dataTable" name="dataTable"/>
+            </h:panelGroup>
+
+            <h:inputHidden id="tiempoInactividad" />
+        </h:form>
+    </h:body>
+    <br/>
+    <br/>
+    <br/>
+    <script>
+        var calendar = document.getElementById('popup_input');
+        var modalInactividad = document.getElementById('popUpInactividad');
+        var btnInactividad = document.getElementById("inactividadPopUp");
+        var time;
+        var tiempoInactividad;
+        var tiempoPopUpInactividad;
+        var popUpAbierto = false;
+
+
+        function tomarTiempoInactividad() {
+            tiempoInactividad = document.getElementById("tiempoInactividad").value;
+            iniciar();
+        }
+
+        function abrirPopUp() {
+            var jsftimeout = document.getElementById("inactividadPopUp");
+            tiempoPopUpInactividad = setTimeout(cerrar, 15000);
+        }
+
+        function reset() {
+            if (!popUpAbierto) {
+                tiempoInactividad = document.getElementById("tiempoInactividad").value;
+                clearTimeout(tiempoPopUpInactividad);
+                clearTimeout(time);//limpia el timeout para resetear el tiempo desde cero
+                iniciar();
+                popUpAbierto = false;
+            }
+        }
+
+        function reset2() {
+            tiempoInactividad = document.getElementById("tiempoInactividad").value;
+            clearTimeout(tiempoPopUpInactividad);
+            clearTimeout(time);//limpia el timeout para resetear el tiempo desde cero
+            iniciar();
+            popUpAbierto = false;
+        }
+
+        function iniciar() {
+            time = setTimeout(abrirPopUp, tiempoInactividad);// inicia de nuevo el timeout
+        }
+
+        function cerrar() {
+            popUpAbierto = false;
+        }
+
+        function NoBack() {
+            history.go(1);// evita que se reotrne a la sesión
+        }
+
+        $(document).ready(function () {
+            $("#btnInactividad1").bind("click", function () {
+                //matar token, cerrar sesion, ir a login
+                cerrar();
+            });
+            $("#btnInactividad2").bind("click", function () {
+                //continuar en la sesion.
+                reset2();
+                modalInactividad.style.display = "none";
+            });
+        });
+    </script>
+</html>

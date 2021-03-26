@@ -1,0 +1,13 @@
+co\com\claro\qdn\login\MSExchangeResponse.class
+co\com\claro\bridge360\mb\ShowParameters.class
+co\com\claro\qdn\util\JSFUtil.class
+co\com\claro\qdn\util\EJBExepciones$CODIGO_EXCEPCION.class
+co\com\claro\qdn\util\Constantes.class
+co\com\claro\bridge360\mb\IncidentsSessionMB.class
+co\com\claro\qdn\util\EJBExepciones$MENSAJE_EXCEPCION.class
+co\com\claro\bridge360\mb\PasoIMEIMB.class
+co\com\claro\bridge360\mb\SessionMB.class
+co\com\claro\bridge360\mb\ShowParametersIncidents.class
+co\com\claro\bridge360\mb\CruceModalPostMB.class
+co\com\claro\qdn\util\EJBExepciones.class
+co\com\claro\qdn\util\Constantes$TIPO_REPORTE.class
