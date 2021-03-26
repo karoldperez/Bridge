@@ -1,6 +1,9 @@
 /Bridge360-ear/target/
 /Bridge360-ejb/target/
 /Bridge360-web/target/
+/Bridge360/Bridge360-ear/target/
+/Bridge360/Bridge360-ejb/target/
+/Bridge360/Bridge360-web/target/
 
 # Compiled class file
 *.class
